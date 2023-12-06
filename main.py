@@ -5,6 +5,7 @@ import sys
 def save_input_to_file(s):
     with open('output.txt', 'w+') as f:
         f.write(s)
+    logging.info(f"Created output.txt file with content {s[:10]}...")
 
 
 # Press the green button in the gutter to run the script.
